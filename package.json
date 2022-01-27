@@ -1,0 +1,47 @@
+{
+  "name": "market-listing",
+  "version": "0.1.0",
+  "private": true,
+  "prisma": {
+    "schema": "lib/db/schema.prisma"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "prisma generate",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^1.5.0",
+    "@emotion/cache": "^11.4.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.1",
+    "@mui/material": "^5.0.1",
+    "@prisma/client": "^3.1.1",
+    "autosuggest-highlight": "^3.1.1",
+    "formik": "^2.2.9",
+    "luxon": "^2.0.2",
+    "next": "11.1.2",
+    "next-auth": "^3.29.0",
+    "notistack": "^2.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "swr": "^1.0.1",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@types/luxon": "^2.0.4",
+    "@types/react": "17.0.24",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "prettier-plugin-organize-imports": "^2.3.4",
+    "prisma": "^3.1.1",
+    "typescript": "^4.4.3"
+  }
+}
